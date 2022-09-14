@@ -1,0 +1,8 @@
+include \masm32\include\masm32rt.inc ; Import needed library
+
+.code
+
+start:
+    print chr$("Hello, world", 12, 10)
+exit
+end start
